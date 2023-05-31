@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from typing import Dict
 import sqlite3
- 
+ #API
 app = FastAPI()
 conn = sqlite3.connect('inventario.sqlite', check_same_thread=False)
 cur = conn.cursor()
